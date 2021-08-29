@@ -40,7 +40,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+	
 </head>
 <body>
 
@@ -105,14 +105,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
-                        <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hello! I'm Daphnie. I am a Social Media Manager that focuses on Facebook Advertisement. I deploy effective ads thru the facebook and/or instagram platform to generate profit. I’m currently available for freelance work. If you think you need my help, then get in touch.</p>
-                        <a href="assets/Daphnie Domingo - CV.pdf" class="btn btn-fill" target="_blank" download>Download my CV</a>
-                        <a href="assets/img/Daphnie Domingo - CV.png" class="btn btn-fill" target="_blank" download>Show my CV</a>
-                        <a href="assets/img/Daphnie Domingo - CV.png" class="btn btn-fill" target="_blank">Show my CV
-  <img alt='daphnie-cv' src='assets/img/Daphnie Domingo - CV.png' />
-</a>
+                 
+                      <h2>About</h2>
+                      <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                      <p>Hello! I'm Daphnie. I am a Social Media Manager that focuses on Facebook Advertisement. I deploy effective ads thru the facebook and/or instagram platform to generate profit. I’m currently available for freelance work. If you think you need my help, then get in touch.</p>
+                      <a href="assets/Daphnie Domingo - CV.pdf" class="btn btn-fill" target="_blank" download>Download my CV</a>
+                      <a href="assets/img/Daphnie Domingo - CV.png" class="btn btn-fill" target="_blank" download>Show my CV</a>
+                      <a href="assets/img/Daphnie Domingo - CV.png" class="btn btn-fill" target="_blank" onclick="imageShow()">Show my CV
+                 	<style>
+                    <div>
+           					<img src="assets/img/Daphnie Domingo - CV.png" id="daph-cv" alt="Daphnie Domingo - CV" />
+      					</div>
+           				#image{
+                		display:none;
+      				</style>
+                      <script>
+                          function imageShow(){
+                            document.getElementById('daph-cv').style.display = "block";       
+                          }
+                      </script></a>
                     </div>
                 </div>
             </div>
